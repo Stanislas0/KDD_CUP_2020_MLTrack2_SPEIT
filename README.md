@@ -7,9 +7,13 @@ Members: Qinkai Zheng, Yixiao Fei, Yanhao Li, Qingmin Liu, Minhao Hu, Qibo Sun
 
 Most of members are from Shanghai Jiao Tong University, SPEIT institute. Qibo Sun is with Université Paris Saclay, Paris, France. 
 
+If you have any question about our solutions, please raise an issue or contact ```qinkai.zheng1028@gmail.com```. 
+
+There is also a [represention video](https://www.bilibili.com/video/BV1UZ4y1M7uA).
+
 ## Introduction
 
-<img src="./images/intro.jpg" alt="avatar" style="zoom:20%;" />
+<div align=center><img src="./images/intro.jpg" alt="intro" width="600" /></div>
 
 In this competition, we consider the paper citation networks, which is a very big graph with 659,574 nodes and 5,757,154 edges. The edges represent the citation relations between papers. Each node has a 100-dimension features (extracted from the abstract of paper) and belongs to one of 18 classes. All participants are required to submit one attacker and one defender. The attacker is a modified version of the given graph. The defender is a model that classify the graph robustly. All attackers and defenders from all teams are matched to calculate the average performance. 
 
