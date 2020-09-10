@@ -9,7 +9,7 @@ Most of members are from Shanghai Jiao Tong University, SPEIT institute. Qibo Su
 
 If you have any question about our solutions, please raise an issue or contact ```qinkai.zheng1028@gmail.com```. 
 
-There is also a [represention video](https://www.bilibili.com/video/BV1UZ4y1M7uA).
+There is also a [representation video](https://www.bilibili.com/video/BV1UZ4y1M7uA).
 
 ## Introduction
 
