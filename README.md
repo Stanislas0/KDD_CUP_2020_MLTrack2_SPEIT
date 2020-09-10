@@ -2,17 +2,21 @@
 KDD CUP 2020 ML Track 2 "Adversarial Attacks and Defense on Academic Graph": 1st Place Solution
 
 Team: **SPEIT-卓工**
+
 Members: Qinkai Zheng, Yixiao Fei, Yanhao Li, Qingmin Liu, Minhao Hu, Qibo Sun
+
 Most of members are from Shanghai Jiao Tong University, SPEIT institute. Qibo Sun is with Université Paris Saclay, Paris, France. 
 
 ## Introduction
 
-- <img src="./images/intro.jpg" alt="avatar" style="zoom:30%;" />
+<img src="./images/intro.jpg" alt="avatar" style="zoom:20%;" />
 
 In this competition, we consider the paper citation networks, which is a very big graph with 659,574 nodes and 5,757,154 edges. The edges represent the citation relations between papers. Each node has a 100-dimension features (extracted from the abstract of paper) and belongs to one of 18 classes. All participants are required to submit one attacker and one defender. The attacker is a modified version of the given graph. The defender is a model that classify the graph robustly. All attackers and defenders from all teams are matched to calculate the average performance. 
 
 More details can be found in the following sites:
+
 KDD CUP 2020 official site: https://www.kdd.org/kdd2020/kdd-cup
+
 ML Track2 "Adversarial Attacks and Defense on Academic Graph" site: https://www.biendata.xyz/competition/kddcup_2020_formal/
 
 ## Data
@@ -52,8 +56,9 @@ Data can be downloaded through [Baidu]( https://pan.baidu.com/s/15TuQ0iRcIwixLt6
 * **Objective:** Maintain accuracy on the test nodes.
 
 * **Requirements:**
+  * Robust classifier.
   * Inference time <10s (on a K80 GPU).
-*  **Solution:**
+* **Solution:**
   * **Feature Denoising** 
   * **Feature Transformation**
   * **Topology Adaptive GCN** [1]
